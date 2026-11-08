@@ -33,7 +33,9 @@ function getProviders() {
   // [START auth_get_providers]
   var googleProvider = new firebase.auth.GoogleAuthProvider();
   var facebookProvider = new firebase.auth.FacebookAuthProvider();
-  var twitterProvider = new firebase.auth.TwitterAuthProvider();
+  var twitterProvider = new firebase.aut
+    %
+    h.TwitterAuthProvider();
   var githubProvider = new firebase.auth.GithubAuthProvider();
   // [END auth_get_providers]
 }
